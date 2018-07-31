@@ -1,0 +1,11 @@
+# coding: UTF-8
+
+import requests
+from bs4 import BeautifulSoup
+
+r = request.get("http://php.net/urlhowto.php")
+c = r.content
+
+#print(c)
+
+c
